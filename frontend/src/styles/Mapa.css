@@ -1,0 +1,91 @@
+.mapa-container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mapa-container h2 {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+}
+
+.mapa-wrapper {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.leaflet-container {
+  height: 400px !important;
+  width: 100% !important;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 2px solid #e0e0e0;
+}
+
+.leaflet-popup-content-wrapper {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.leaflet-popup-content {
+  color: #222;
+  font-family: 'Inter', Arial, sans-serif;
+  font-weight: 500;
+}
+
+.leaflet-popup-tip {
+  background: #fff;
+}
+
+/* Customização dos controles de zoom */
+.leaflet-control-zoom {
+  border-radius: 8px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  border: none !important;
+}
+
+.leaflet-control-zoom a {
+  background: #388e3c !important;
+  color: #fff !important;
+  border: none !important;
+  width: 30px !important;
+  height: 30px !important;
+  line-height: 30px !important;
+  text-align: center !important;
+  font-weight: bold !important;
+  transition: background 0.2s !important;
+}
+
+.leaflet-control-zoom a:hover {
+  background: #2e7d32 !important;
+}
+
+/* Estilização dos marcadores personalizados */
+.custom-marker {
+  background: #388e3c;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .mapa-wrapper {
+    padding: 0.5rem;
+  }
+  
+  .leaflet-container {
+    height: 300px !important;
+  }
+  
+  .mapa-container h2 {
+    font-size: 1.5rem;
+  }
+}
