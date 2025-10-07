@@ -25,3 +25,9 @@
 /frontend/*.sw?
 
 /backend/venv
+/backend/__pycache__
+/backend/*.pyc
+/backend/*.pyo
+/backend/*.pyd
+
+/frontend-container
